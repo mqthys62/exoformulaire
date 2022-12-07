@@ -1,0 +1,126 @@
+/************************************************************
+ * ATTENTION REGLAGES DE L'INTERFACE GLOBALE.
+ * NE PAS TOUCHER AUX LIGNES CI-DESSOUS
+ * TRAVAILLEZ A PARTIR DE LA LIGNE 27 !!
+ ************************************************************/
+ .page{
+    width: 900px;
+    margin:auto;
+    background-color: transparent;
+}
+.entete{
+    height: 100px;
+}
+.colonne_menu{
+    float:left;
+    width:200px;
+    height:100%;
+}
+.colonne_contenu {
+    margin-left:200px;
+}
+.pieddepage{
+    height:50px;
+}
+
+/************************************************************
+ * SAISISSEZ VOS DECLARATIONS CSS EN-DESSOUS DE CETTE LIGNE
+ ************************************************************/
+body{
+	/* Pour avoir le choix des couleurs https://htmlcolorcodes.com/fr/noms-de-couleur/ */
+    background-color: silver; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    margin: 0;
+    padding: 0;
+}
+.page {
+	background-color: grey; 
+}
+.entete{
+    background-color: grey;
+    padding: 10px;
+}
+.colonnes {
+    background-color: #5F9EA0;
+}
+.colonne_menu{
+    background-color: #5F9EA0;
+}
+.colonne_contenu {
+    background-color: white;
+    padding: 10px;
+}
+.pieddepage{
+    background-color: lightgray;
+    color: blue;
+    text-align: center;
+    line-height: 3;
+}
+
+.titre_du_site {
+    font-size: large;
+    color: white;
+}
+
+.Notre_slogan {
+    font-style: italic;
+}
+h1 {
+    background-color: orange;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-bottom: solid black 5px;
+}
+
+h2 {
+    color: green;
+    font-size: medium;
+    margin: 20px;
+    font-variant: small-caps;
+}
+strong {
+    font-weight: normal;
+}
+
+em {
+    color: red;
+}
+
+.introduction {
+    font-style: italic;
+    border: solid black 1px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+a:hover {
+    color: orange;
+    text-decoration: none;
+}
+
+.colonne_menu li {
+    list-style-type: none;
+    background-color: yellow;
+    margin: 5px;
+    padding: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.colonne_menu ul
+
+.colonne_menu li:hover {
+    background-color: green;
+}
+
+li:hover {
+    text-decoration: none;
+    color: purple;
+}
+
+.colonne_menu li a {
+    text-decoration: none;
+    display: block;
+    padding: 5px;
+    }

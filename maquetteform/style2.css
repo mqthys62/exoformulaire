@@ -1,0 +1,96 @@
+body {
+    background-color: white;
+    font-family: Helvetica;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.backfont {
+    background-color:rgb(17, 62, 60);
+    /*padding: 1%;*/
+    /*display: inline-block;*/ 
+   width: 400px;
+   height: 430px;
+   display: flex;
+   text-align: center;
+   justify-content: center;
+    align-items: center;
+}
+
+.zone {
+    background-color:rgb(17, 62, 60);
+    width: 90%;
+    align-content: center;
+    height: 95%;
+    display: inline-block;
+    
+}
+
+div h1 {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding: 5% 0% 5% 0%;
+    font-style: italic;
+}
+div nav {
+    margin-top: 30px;
+    display: flex;
+    background-color: black;
+}
+
+
+div nav > a{
+    text-decoration: none;
+    padding: 1em 0 1em 0;
+    background-color: grey;
+    display:block; 
+    width:50%;
+    color: white;
+}
+
+
+
+a:hover {
+    background-color: rgb(86, 207, 149);
+}
+
+form div {
+    margin-top: 25px;
+    display: flex;
+}
+
+
+form div > input {
+    /*padding: 3%;*/
+    border: solid grey 2px;
+    background-color:rgb(17, 62, 60);
+    display:inline-flex;
+width:100%;
+    padding:5px;
+    align-content: left;
+
+}
+
+button {
+    width: 100%;
+    padding 5%;
+    background-color: rgb(86, 207, 149);
+    border-radius: 5px;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    font-size: large;
+    color:white;
+
+}
+
+#firstName { 
+    width:50%;
+
+}
+
+#lastName { 
+    margin-left:10px;
+    width:50%;
+}
