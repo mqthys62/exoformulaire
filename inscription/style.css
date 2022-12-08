@@ -15,6 +15,7 @@ body {
     align-items: center;
     border-radius: 5%;
     padding: 3%;
+    background-image: url(imagefond.png);
 
 }
 
@@ -47,6 +48,7 @@ div {
 form div > h1 {
 font-size: xx-large;
 color: #D83638;
+font-weight: bold;
 }
 
 form div > h2 {
@@ -71,7 +73,7 @@ color: grey;
 }
 
 .test {
-    margin-left: 20%;
+    margin-left: 8%;
 }
 
 button {
@@ -80,6 +82,8 @@ button {
     background-color: #D83638;
     border: transparent;
     border-radius: 10%;
+    color: white;
+    font-weight: bold;
 
 }
 
